@@ -1,0 +1,100 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+        body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    text-align: center;
+}
+h2{
+    margin-bottom: 20px;
+    text-align: left;
+}
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+input[type="radio"] {
+    margin: 8px 0;
+}
+
+input[type="button"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+      </style>
+      <title>PAYMENT DETAILS</title>
+    </head>
+    <body>
+      <form>
+        <div>
+            <!-- <h2>Payment</h2> -->
+            <label>Online Payment:</label>
+            <form>
+              <div>
+                <h2>Payment</h2>
+                <label>Card Number:</label>
+                <input type="text" name="cardNumber">
+                <br>
+                <label>Expiration Date:</label>
+                <input type="text" name="expirationDate">
+                <br>
+                <label>CVV:</label>
+                <input type="text" name="cvv">
+                <br>
+                <label>Cardholder Name:</label>
+                <input type="text" name="cardholderName">
+                <br>
+                <!-- <button type="submit" value='Pay' onClick="location.href='success.html'">Pay</button> -->
+                <!-- <input type=button onClick="location.href='success.html'" value='PAY'> -->
+              </div>
+            </form>
+            <br>
+            <label>COD:</label>
+            <input type="radio" name="payment" value="cod">
+            <br>
+            <!-- <button type="submit" >Submit</button> -->
+            <input type=button onClick="location.href='success.html'" value='Next'>
+          </div>
+        </form>
+    </body>
+    </html>
+    

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="/css/styles.css"> -->
+  <title>Order Summary</title>
+  <style>
+  form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  input[type="text"], input[type="month"], input[type="tel"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  </style>
+</head>
+    <body>
+  <form>
+  <div>
+    <h2>Order Summary</h2>
+    <label>Product Name:</label>
+     <text> Sports Shoes </text>
+    <br>
+    <label>Price:</label>
+    <text> $10000 </text>
+    <br>
+    <label>Order ID:</label>
+    <text> 7849302 </text>
+    <br>
+    <label>Date:</label>
+    <text> 13/01/23 </text>
+    <br>
+    <input type=button onClick="location.href='details.html'" value='Next'>
+  </div>
+</form>  
+</body>
+</html>
